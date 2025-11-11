@@ -28,3 +28,8 @@ print("Stemmed words:", stemmed_words)
 print("\n d. Parts of Speech (POS) Tagging")
 postag = nltk.pos_tag(word_tok)
 print("POS tags:", postag)
+
+
+
+# for taking manual input from user
+user_input = input("\n Enter your own text for POS tagging: ")
